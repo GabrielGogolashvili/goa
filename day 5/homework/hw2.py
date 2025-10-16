@@ -1,0 +1,13 @@
+name=input("Name:")
+surname=input("Surname: ")
+age=int(input("Age:"))
+birth1=int(input("Day: "))
+birth2=int(input("Month: "))
+birth3=int(input("Year: "))
+
+print("======================")
+print(name)
+print(surname)
+print(age)
+print(birth1,"/",birth2,"/",birth3)
+print("======================")
