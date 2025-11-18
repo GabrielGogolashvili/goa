@@ -1,3 +1,4 @@
+#მომხმარებელს შემოატანინეთ რიცხვი სანამ თქვენს მიერ ჩაფიქრებულ რიცხვს არ შემოიტანს.
 secretnumber = 99
 enternumber = int(input("Guess my number: "))
 
