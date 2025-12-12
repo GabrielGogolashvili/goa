@@ -1,0 +1,5 @@
+words = ["test", "python", "code"]
+
+words[0] = "hello"
+
+print(words)

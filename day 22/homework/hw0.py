@@ -1,0 +1,1 @@
+#LISTS ARE MUTTABLE, STRINGS ARE IMMUTABLE // სიების შნაარსი შეგვიძ₾ია შევცვალოთ, სტრინგების არა
