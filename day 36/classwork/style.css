@@ -1,0 +1,21 @@
+#header{
+    color: aqua;
+    background-color: purple;
+    border: 2px solid black;
+    margin: 20px;
+    align-items: center;
+}
+
+.idk{
+    color: pink;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 40px;
+    align-items: right;
+}
+
+ul li{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid black;
+}
