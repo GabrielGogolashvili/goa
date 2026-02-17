@@ -1,0 +1,9 @@
+#h1{
+    text-decoration: violet underline double;
+}
+#h2{
+    text-decoration: lime line-through dashed;
+}
+#h3{
+    text-decoration: navy overline dotted;
+}

@@ -1,0 +1,10 @@
+#wyh{
+    color: rgb(0, 0, 255);
+    text-shadow: 3px 3px 0 pink;
+    text-transform: uppercase;
+}
+#gfg{
+    color: black;
+    text-shadow: 3px 3px 3px greenyellow;
+    text-transform: capitalize;
+}
