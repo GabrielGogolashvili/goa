@@ -1,0 +1,7 @@
+div:hover{
+    background-color: red;
+}
+
+div:active{
+    border: 3px solid pink;
+}

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+In+GDL&family=Faculty+Glyphic&display=swap');
+
+a:link{
+    background-color: darkblue;
+    color: purple;
+    font-family: "Faculty Glyphic", sans-serif;
+}
