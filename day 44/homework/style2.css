@@ -1,0 +1,16 @@
+input{
+    color: red;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid red;
+}
+
+label{
+    color: red;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+input::after{
+    background-color: red;
+}
