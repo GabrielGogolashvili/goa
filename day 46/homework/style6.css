@@ -1,0 +1,11 @@
+input{
+    height: 100px;
+    width: 100px;
+}
+
+div{
+    border-left: 3px dotted pink;
+    border-right: 4px dashed blue;
+    border-bottom: 10px solid green;
+    border-top: 20px double red;
+}
