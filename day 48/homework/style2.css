@@ -1,0 +1,16 @@
+#parent{
+    width: 700px;
+    height: 700px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+}
+
+/* Row - ჰორიზონტალურად. Column - ვერტიკალურად. */
