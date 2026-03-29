@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    height: 400px;
+    align-items: center;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    background: coral;
+}
+
+.one {
+    align-self: flex-end;
+}
+
+.two {
+    align-self: flex-start;
+}
+
+.three {
+    align-self: center;
+}
+
+.four {
+    align-self: auto;
+}

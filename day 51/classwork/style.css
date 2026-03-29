@@ -1,0 +1,29 @@
+#parent{
+    height: 600px;
+    width: 600px;
+    border: 5px solid purple;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.child{
+    width: 60px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.d2{
+    width: 60px;
+    height: 60px;
+    align-self: start;
+    border: 1px solid green;
+}
+
+.d3{
+    width: 60px;
+    height: 60px;
+    align-self: end;
+    border: 1px solid green;
+}

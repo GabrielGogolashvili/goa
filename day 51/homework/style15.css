@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    width: 400px;
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.menu {
+    flex-shrink: 1;
+}
+
+button {
+    flex-shrink: 0;
+}

@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    width: 500px;
+    flex-basis: 250px;
+    height: 80px;
+}
+
+.i1 { 
+    flex-shrink: 1;
+}
+
+.i2 { 
+    flex-shrink: 0;
+}
+
+.i3 { 
+    flex-shrink: 2;
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: lightblue;
+}
+
+.special {
+    align-self: flex-start;
+}

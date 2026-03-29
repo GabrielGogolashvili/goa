@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.i1 { 
+  flex-basis: 100px; 
+}
+
+.i2 {
+  flex-basis: 200px; 
+}
+
+.i3 { 
+  flex-basis: 300px; 
+}
+
+.i4 {
+  flex-basis: 150px; 
+}

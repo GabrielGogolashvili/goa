@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+}
+
+.menu {
+    flex: 1;
+}
+
+.profile {
+    flex: 0 0 60px;
+}

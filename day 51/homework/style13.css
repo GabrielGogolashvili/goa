@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
