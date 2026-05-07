@@ -1,0 +1,8 @@
+.image{
+    width:200px;
+    transition:1s;
+}
+
+.image:hover{
+    transform: scale(0.7) rotate(180deg) translateX(-50px);
+}

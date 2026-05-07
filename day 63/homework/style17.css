@@ -1,0 +1,7 @@
+.box17{
+    transform-origin: bottom right;
+}
+
+.box17:hover{
+    transform: scale(0.6) translateX(-50px) rotate(-15deg);
+}

@@ -1,0 +1,6 @@
+.card {
+    width: 350px;
+    height: 220px;
+    border: 1px solid black;
+    background: url("Software-code-article-image.jpg") center / contain no-repeat;
+}
