@@ -1,7 +1,0 @@
-.box16{
-    transform-origin: top left;
-}
-
-.box16:hover{
-    transform: scale(2) rotate(20deg) translateX(50px);
-}

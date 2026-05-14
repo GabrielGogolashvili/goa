@@ -1,0 +1,30 @@
+.profile-card{
+    width:250px;
+    padding:20px;
+    text-align:center;
+    border:1px solid #ccc;
+    transition:transform 0.5s,box-shadow 1s 0.2s;
+}
+
+.profile-card img{
+    width:120px;
+    border-radius:50%;
+    transition:transform 0.8s;
+}
+
+.profile-card h2{
+    transition:color 0.3s;
+}
+
+.profile-card:hover{
+    transform:translateY(-15px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+.profile-card:hover img{
+    transform:rotate(360deg);
+}
+
+.profile-card:hover h2{
+    color:crimson;
+}

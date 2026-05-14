@@ -1,0 +1,10 @@
+.image{
+    width:250px;
+    transition:opacity 0.5s, transform 0.7s, rotate 1.2s 0.4s;
+}
+
+.image:hover{
+    opacity:0.5;
+    transform:scale(1.2);
+    rotate:20deg;
+}

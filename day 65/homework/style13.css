@@ -1,0 +1,11 @@
+.button{
+    padding:15px 30px;
+    background:gold;
+    border:none;
+    transition:all 4s;
+    transition-delay:2s;
+}
+
+.button:active{
+    transform:scale(0.9) rotate(45deg);
+}

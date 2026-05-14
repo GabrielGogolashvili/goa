@@ -1,0 +1,13 @@
+.animated-button{
+    padding:15px 30px;
+    background:black;
+    color:white;
+    border:none;
+    transition:transform 0.3s,box-shadow 0.7s 0.1s,color 0.2s;
+}
+
+.animated-button:hover{
+    transform:scale(1.2);
+    box-shadow:0 0 20px cyan;
+    color:yellow;
+}

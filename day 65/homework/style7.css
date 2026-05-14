@@ -1,0 +1,12 @@
+.loading-box{
+    width:120px;
+    height:120px;
+    background:teal;
+    transition:transform 1.5s,border-radius 0.5s,background-color 0.4s;
+}
+
+.loading-box:hover{
+    transform:rotate(360deg);
+    border-radius:50%;
+    background-color:tomato;
+}
