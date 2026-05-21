@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: #7b8bad;            
+  background-color: #ffffff; 
+  font-size: 18px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 0px 35px 0px;
+}
+
+.logo {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  transition: all 0.25s ease-in-out;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #e9ecf2; 
+  color: #162542;            
+  padding: 16px 26px;
+}
+
+.btn-secondary:hover {
+  background-color: #162542; 
+  color: #ffffff;            
+}
+
+.btn-primary {
+  background-color: #f16718; 
+  color: #ffffff;            
+  padding: 16px 32px;
+}
+
+.btn-primary:hover {
+  background-color: #ff9b62; 
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0px 60px 0px;
+  gap: 30px;
+}
+
+.hero-content {
+  width: 45%;
+}
+
+.hero-content h1 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 56px;
+  line-height: 1.05;
+  color: #162542;            
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.hero-content p {
+  margin-bottom: 40px;
+  max-width: 440px;
+  color: #7b8bad;            
+}
+
+.hero-cta-group {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.release-date {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #7b8bad;            
+}
+
+.hero-image-wrapper {
+  width: 55%;
+  position: relative;
+}
+
+.hero-image-wrapper .main-hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  object-fit: cover;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0px 90px 0px;
+  gap: 30px;                     
+}
+
+.gallery-images-container {
+  display: flex;
+  width: 60%;
+  gap: 30px;                                                        
+}
+
+.orange-blend-panel {
+  position: relative;
+  background-color: #f16718; 
+  border-radius: 20px;
+  overflow: hidden;
+  height: 480px;    
+  width: 255px;     
+}
+
+.orange-blend-panel img {
+  mix-blend-mode: multiply;
+  opacity: 0.85;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.glass-panel {
+  height: 480px; 
+  width: 445px;
+  position: relative;
+}
+
+.mid-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+}
+
+.mid-text-content {
+  width: 40%;
+  padding-left: 40px;            
+}
+
+.mid-text-content h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 36px;
+  line-height: 1.15;
+  color: #162542;            
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.mid-text-content p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #7b8bad;            
+  max-width: 350px;              
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 60px 0px;
+}
+
+.feature-card {
+  width: 25%;
+}
+
+.feature-card .icon-box {
+  width: 65px;
+  height: 65px;
+  background-color: #f16718; 
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.feature-card .icon-box img {
+  width: 24px;
+  height: 24px;
+}
+
+.feature-card h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  color: #162542;            
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+.feature-card p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #7b8bad;            
+}
+
+.footer {
+  text-align: center;
+  padding: 50px 0px 60px 0px;
+  font-size: 17px;
+}
+
+.footer strong {
+  color: #162542;
+}
