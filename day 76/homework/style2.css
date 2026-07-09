@@ -1,0 +1,70 @@
+.parent{
+    width: 1000px;
+    height: 100px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 250px 250px 125px 125px 250px;
+    grid-template-rows: 333px 333px 334px 333px;
+    grid-gap: 10px;
+}
+
+.leftred{
+    background-color: red;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-row-end: 3;
+}
+
+.leftwhite{
+    background-color: white;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.topblue{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 4;
+}
+
+.topbrown{
+    background-color: brown;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-column-end: 6;
+}
+
+.middlebrown{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.rightwhite{
+    background-color: white;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.redright{
+    background-color: red;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.bottomred{
+    background-color: red;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-column-end: 4;
+}
+
+.bottomblue{
+    background-color: blue;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-column-end: 5;
+}

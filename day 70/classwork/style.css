@@ -1,0 +1,27 @@
+div{
+    color: red;
+    animation-name: lol;
+    animation-delay: 3s;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+}
+
+@keyframes lol{
+    25%{
+        color: yellow;
+        margin-top: 50px;
+    }
+
+    50%{
+        color: blue;
+        border-radius: 20px;
+        margin-left: 50px;
+        transform: rotate(40deg);
+    }
+
+    100%{
+        color: orange;
+        border-radius: 100%;
+        border: red;
+    }
+}

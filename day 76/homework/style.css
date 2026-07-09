@@ -1,0 +1,57 @@
+.parent{
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 10px;
+}
+
+.leftgreen{
+    background-color: green;
+    grid-column-start: 1;
+    grid-row-end: span 4;
+}
+
+.middlegreen{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.topred{
+    background-color: red;
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+.rightgreen{
+    background-color: green;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+
+.leftyellow{
+    background-color: yellow;
+    grid-column-start: 2;
+}
+
+.rightyellow{
+    background-color: yellow;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.leftred{
+    background-color: red;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.rightred{
+    background-color: red;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
