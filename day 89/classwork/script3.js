@@ -1,0 +1,1 @@
+console.log("my friend told me to tell my other friend to come".replaceAll("friend", "bro"))

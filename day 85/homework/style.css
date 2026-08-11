@@ -1,0 +1,1001 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 132px;
+}
+
+.headerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.headerdiv div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+header img{
+    width: 140px;
+}   
+
+header button{
+    color: white;
+    background-color: #4CAF4F;
+    border: none;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+button img{
+    width: 15px;
+}
+
+
+.burgermenu{
+    display: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F7FA;
+    width: 100%;
+    padding: 70px 132px;
+}
+
+
+.imgdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.txtdiv h1{
+    font-size: 55px;
+    width: 70%;
+    color: #4D4D4D;
+}
+
+.txtdiv span{
+    color: #4CAF4F;
+}
+
+.txtdiv p{
+    color: #717171;
+    font-size: 14px;
+}
+
+.txtdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 35px;
+}
+
+.txtdiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+
+.illu{
+    width:85%;
+}
+
+.txtdiv button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.dot{
+    width: 40px;
+    position: relative;
+    top: 55px;
+    right: 85px;
+}
+
+.txtdiv3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 120px;
+    width: 100%;
+}
+
+.txtdiv3 h1{
+    font-weight: 600;
+    color:#4D4D4D;
+    font-size: 36px;
+}
+.txtdiv3 p{
+    color:#717171;
+    font-size: 16px;
+}
+
+.griddiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 170px;
+    width: 70%;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 35px 132px;
+    gap: 20px;
+}
+
+.sdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.sdiv1 h1{
+    color: #4D4D4D;
+    font-size: 36px;
+    width: 32%;
+}
+
+.sdiv1 p{
+    color: #717171;
+}
+
+.sdiv2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    gap: 250px;
+    flex-wrap: wrap;
+}
+
+.samediv{
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0px 4px 5px rgb(233, 233, 233);
+    border-radius: 7px;
+}
+
+.samediv p{
+    color: #717171;
+}
+
+.samediv img{
+    width: 70px;
+}
+
+.samediv h1{
+    width: 200px;
+    color: #4D4D4D;
+}
+
+.samep{
+    width: 280px;
+}
+
+.diffp{
+    width: 270px;
+}
+
+.section3{
+    width: 100%;
+}
+
+.hero3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 260px;
+}
+
+.hero3txt h1{
+    font-size: 35px;
+    color: #4D4D4D;
+    width: 500px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.hero3txt p{
+    color: #717171;
+    line-height: 25px;
+    position: relative;
+    top: 20px;
+}
+
+.hero3txt button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    position: relative;
+    top: 40px;
+}
+
+.section4{
+    background-color: #F5F7FA;
+    width: 100%;
+}
+
+.hero4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 250px;
+    gap: 100px;
+}
+
+.hero4right{
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    grid-template-rows: repeat(2, 50%);
+    width: 25%;
+    position: relative;
+    right: 100px;
+    gap: 25px;
+}
+
+.hero4left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    right: 200px;
+}
+
+.hero4left h1{
+    font-size: 36px;
+    color: #4D4D4D;
+    width: 380px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.hero4left p{
+    color: #18191F;
+}
+
+.members{
+    grid-row-start: auto;
+    grid-row-start: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #4D4D4D;
+    font-weight: 700;
+}
+
+.members h1{
+    font-size: 25px;
+}
+
+.members p{
+    font-weight: 400;
+    color: #717171;
+}
+
+.bookings{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #4D4D4D;
+    font-weight: 700;
+}
+
+.bookings h1{
+    font-size: 25px;
+}
+
+.bookings p{
+    font-weight: 400;
+    color: #717171;
+}
+
+.clubs{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #4D4D4D;
+    font-weight: 700;
+}
+
+.clubs h1{
+    font-size: 25px;
+}
+
+.clubs p{
+    font-weight: 400;
+    color: #717171;
+}
+
+.payments{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #4D4D4D;
+    font-weight: 700;
+}
+
+.payments h1{
+    font-size: 25px;
+}
+
+.payments p{
+    font-weight: 400;
+    color: #717171;
+}
+
+.section5{
+    background-color: #F5F7FA;
+    width: 100%;
+}
+
+.hero5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 150px;
+    width: 100%;
+}
+
+.hero5txt{
+    width: 100%;
+}
+
+.hero5txt p{
+    color: #717171;
+    line-height: 25px;
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+}
+
+.label h1{
+    font-size: 20px;
+    color: #4CAF4F;
+    width: 500px;
+    font-weight: 600;
+    line-height: 45px;
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+
+.label h2{
+    color: #717171;
+    line-height: 25px;
+    position: relative;
+    top: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero5smallimgs{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+
+.hero5smalldivimgs{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.label2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.label2 h1{
+    font-size: 20px;
+    color: #4CAF4F;
+    font-weight: 600;
+}   
+
+.section6{
+    width: 100%;
+}
+
+.hero6{
+    padding: 50px 170px;
+    width: 100%;
+}
+
+.hero6txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero6txt h1{
+    font-size: 35px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+
+.hero6txt p{
+    color: #717171;
+    width: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.hero6img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+.hero6over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.hero6over1{
+    background-color: #F5F7FA;
+    width: 25%;
+    padding: 5px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    bottom: 120px;
+}
+
+.hero6over1 h1{
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #717171;
+    line-height: 30px;
+}
+
+.hero6over1 h2{
+    font-size: 22px;
+}
+
+.label3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4CAF4F;
+    gap: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width:2000px){
+    .griddiv{
+        gap: 60px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .griddiv img{
+        width: 30px;
+    }
+
+    .sdiv2{
+        gap: 70px;
+    }
+
+    .clients{
+        padding: 50px 50px;
+    }
+
+    .section2{
+        padding: 35px 50px;
+    }
+
+    .section5{
+        width: 100%;
+    }
+
+    .hero6img img{
+        width: 28.3%;
+    }
+
+    .hero6over{
+        width: 100%;
+    }
+}
+
+@media (max-width:1400px){
+    .griddiv{
+        gap: 50px;
+        width: 1000px;
+    }
+
+    .sdiv2{
+        gap: 50px;
+    }
+
+    .hero3txt{
+        width: 100%;
+    }
+
+    .hero3img{
+        width: 100%;
+    }
+
+    .hero5{
+        padding: 40px 100px;
+    }
+
+    .hero5smallimgs{
+        width: 100%;
+    }
+
+    .hero5smalldivimgs{
+        width: 100%;
+    }
+    
+    .label2{
+        width: 100%;
+    }
+}
+
+@media(max-width:1200px){
+    .hero4{
+        flex-direction: column;
+        text-align: center;
+        padding: 90px 40px;
+    }
+
+    .hero4left{
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+
+    .hero4left p{
+        width: 100%;
+    }
+
+    .hero4left h1{
+        width: 100%;
+    }
+
+    .hero4left{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero5{
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 40px;
+        text-align: center;
+    }
+
+    .label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero5img{
+        width: 100%;
+    }
+
+    .hero5img img{
+        width: 30%;
+    }
+
+    .hero5smallimgs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .hero5smalldivimgs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1020px){
+    header{
+        padding: 30px 40px;
+    }
+
+    .section1{
+        padding: 70px 40px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 40px;
+        width: 90%;
+    }
+
+    .clients{
+        padding: 40px 40px;
+    }
+
+    .section2{
+        padding: 25px 40px;
+    }
+
+    .txtdiv3 h1{
+        font-size: 40px;
+    }
+
+    .sdiv1 h1{
+        font-size: 40px;
+        width: 70%;
+    }
+
+    .hero3{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .hero3img img{
+        width: 100%;
+    }
+
+    .hero3txt h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hero3txt p{
+        width: 100%;
+    }
+
+    .hero3txt button{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media (max-width:850px){
+    header{
+        padding: 30px 20px;
+    }
+    
+    .section1{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .txtdiv , .txtdiv2 , .txtdiv3 , .sdiv1{
+        align-items: center;
+    }
+
+    .dot{
+        right: 0;
+    }
+
+    .sdiv1{
+        padding: 20px 20px;
+    }
+
+    .samediv{
+        width: 300px;
+    }
+
+    .griddiv{
+        gap: 35px;
+    }
+
+    .sdiv1 h1{
+        font-size: 36px;
+    }
+
+    .hero3img{
+        width: 328px;
+    }
+
+    .hero3txt{
+        width: 200%;
+    }
+}
+
+
+@media (max-width:800px){
+    .text1{
+        display: none;
+    }
+
+    .burgermenu{
+        display: block;
+        width: 26px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 35px;
+        width: 65%;
+    }
+
+    .txtdiv2 p{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .imgdiv1{
+        width: 400px;
+    }
+
+    .griddiv{
+        gap: 50px;
+    }
+
+    
+    .txtdiv3{
+        text-align: center;
+    }
+
+    .txtdiv3 h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .txtdiv3 p{
+        font-size: 14px;
+    }
+
+    .sdiv1 h1{
+        font-size: 28px;
+    }
+
+    .sdiv1 p{
+        font-size: 14px;
+    }
+
+    .samediv img{
+        width: 50px;
+    }
+
+    .samediv h1{
+        font-size: 28px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+        width: 220px;
+    }
+
+    .hero3txt{
+        width: 250%;
+    }
+
+    .hero4right{
+        gap: 60px;
+        right: 120px;
+    }
+
+}
+
+@media (max-width:720px){
+    .txtdiv2 h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .txtdiv2 p{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .imgdiv1{
+        width: 350px;
+    }
+
+    .griddiv{
+        gap: 50px;
+    }
+
+    
+    .txtdiv3{
+        text-align: center;
+    }
+
+    .txtdiv3 h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .txtdiv3 p{
+        font-size: 14px;
+    }
+
+    .sdiv1 h1{
+        font-size: 28px;
+    }
+
+    .sdiv1 p{
+        font-size: 14px;
+    }
+
+    .hero3{
+        padding: 0 40px;
+    }
+
+    .hero3txt{
+        width: auto;
+    }
+
+    .hero4right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        right: 0;
+    }
+
+    .hero5{
+        width: 100%;
+    }
+
+    .hero5smalldivimgs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero5smalldivimgs img{
+        width: 9%;
+    }
+}
+
+@media(max-width:530px){
+    .hero5smalldivimgs{
+        width: 100%;
+        padding: 0%;
+        height: 100%;
+    }
+}
+
+@media (max-width:430px){
+    .headerdiv button{
+        padding: 10px 24px;
+    }
+
+    .headerimg{
+        width: 120px;
+    }
+
+    .burgermenu{
+        display: block;
+        width: 22px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .imgdiv1{
+        width: 270px;
+    }
+
+    .clients{
+        padding: 50px 24px;
+    }
+
+    .sdiv1 h1{
+        width: 300px;
+    }
+    
+    .section6{
+        display: none;
+    }
+
+}
