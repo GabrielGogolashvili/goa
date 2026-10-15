@@ -1,0 +1,24 @@
+function add(a, b){
+    return a + b
+}
+
+function subtract(a, b){
+    return a - b
+}
+
+function multiply(a, b){
+    return a * b
+}
+
+function divide(a, b){
+    return a / b
+}
+
+function calculate(a, b, operation){
+    return operation(a, b)
+}
+
+console.log(calculate(5, 10, add))
+console.log(calculate(5, 10, subtract))
+console.log(calculate(5, 10, multiply))
+console.log(calculate(5, 10, divide))
